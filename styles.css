@@ -3,9 +3,12 @@
 }
 
 body {
-  margin: 0;
-  font-family: monospace;
+  min-height: 100vh;
+  display: grid;
+  align-items: start;
+  justify-items: center;
 }
+
 .shopping-list {
   background: #23424a;
   color: white;
@@ -13,6 +16,11 @@ body {
   padding: 2em;
   margin: 4em auto;
 }
+
 .shopping {
   text-align: center;
+}
+
+.shopping-item input[type='checkbox']:checked + .item-name {
+  opacity: 0.5;
 }
