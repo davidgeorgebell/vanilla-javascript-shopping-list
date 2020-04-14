@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: monospace;
+}
+.shopping-list {
+  background: #23424a;
+  color: white;
+  width: 80%;
+  padding: 2em;
+  margin: 4em auto;
+}
+.shopping {
+  text-align: center;
+}
